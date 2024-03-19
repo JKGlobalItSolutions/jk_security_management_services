@@ -1,3 +1,14 @@
+img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
 .ast-no-sidebar .entry-content .alignfull {
     margin-left: calc( -50vw + 50%);
     margin-right: calc( -50vw + 50%);
@@ -10,11 +21,6 @@
     margin-right: calc(-41vw + 50%);
     max-width: unset;
     width: unset;
-}
-.elementor-25 .elementor-element.elementor-element-32d7464 .elementor-heading-title {
-    color: #FFFFFF;
-    font-size: 79px;
-    margin-top: 100px;
 }
 
 .ast-no-sidebar .entry-content .alignfull .alignfull,.ast-no-sidebar .entry-content .alignfull .alignwide,.ast-no-sidebar .entry-content .alignwide .alignfull,.ast-no-sidebar .entry-content .alignwide .alignwide,.ast-no-sidebar .entry-content .wp-block-column .alignfull,.ast-no-sidebar .entry-content .wp-block-column .alignwide {
@@ -1051,7 +1057,7 @@ body,.ast-separate-container {
 }
 
 @media (min-width: 922px) {
-    .ast-container {
+    .last-container {
         max-width:1240px;
     }
 }
@@ -1328,7 +1334,6 @@ blockquote {
     }
 
     body.elementor-editor-active.ast-theme-transparent-header #masthead,.fl-builder-edit .ast-theme-transparent-header #masthead,body.vc_editor.ast-theme-transparent-header #masthead,body.brz-ed.ast-theme-transparent-header #masthead {
-        z-index: 0;
     }
 
     .ast-header-break-point.ast-replace-site-logo-transparent.ast-theme-transparent-header .custom-mobile-logo-link {
@@ -2645,6 +2650,9 @@ h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content
     .ast-builder-menu-mobile .main-navigation .menu-item-has-children > .menu-link:after {
         content: unset;
     }
+    .elementor-widget-container {
+        margin-top: 150px;
+    }
 }
 
 @media (max-width: 544px) {
@@ -2667,10 +2675,13 @@ h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content
     .ast-header-break-point .ast-builder-menu-mobile .main-navigation {
         display:block;
     }
+    .elementor-widget-container {
+        margin-top: 150px;
+    }
 }
 
 :root {
-    --e-global-color-astglobalcolor0: #2FC1FF;
+    --e-global-color-astglobalcolor0: #47aad4;
     --e-global-color-astglobalcolor1: #08ACF2;
     --e-global-color-astglobalcolor2: #101218;
     --e-global-color-astglobalcolor3: #4C5253;
@@ -2679,13 +2690,177 @@ h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content
     --e-global-color-astglobalcolor7: #4B4F58;
     --e-global-color-astglobalcolor8: #F6F7F8;
 }
-
-.about-button{
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    margin-top: 25px;
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
+.elementor-heading-title {
+    padding: 0;
+    margin: 0;
+    line-height: 1
+}
+
+.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+.elementor-widget-heading .elementor-heading-title.elementor-size-small {
+    font-size: 15px
+}
+
+.elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+    font-size: 19px
+}
+
+.elementor-widget-heading .elementor-heading-title.elementor-size-large {
+    font-size: 29px
+}
+
+.elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+    font-size: 39px
+}
+
+.elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+    font-size: 59px
+}
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+    background-color: #818a91;
+    color: #fff
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+    color: #818a91;
+    border: 3px solid;
+    background-color: transparent
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+    margin-top: 8px
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+    width: 1em;
+    height: 1em
+}
+
+.elementor-widget-text-editor .elementor-drop-cap {
+    float: left;
+    text-align: center;
+    line-height: 1;
+    font-size: 50px
+}
+
+.elementor-widget-text-editor .elementor-drop-cap-letter {
+    display: inline-block
+}
+.elementor-counter .elementor-counter-number-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 69px;
+    font-weight: 600;
+    line-height: 1
+}
+
+.elementor-counter .elementor-counter-number-prefix,.elementor-counter .elementor-counter-number-suffix {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    white-space: pre-wrap
+}
+
+.elementor-counter .elementor-counter-number-prefix {
+    text-align: right
+}
+
+.elementor-counter .elementor-counter-number-suffix {
+    text-align: left
+}
+
+.elementor-counter .elementor-counter-title {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 2.5
+}
+.elementor-widget-image-box .elementor-image-box-content {
+    width: 100%
+}
+
+@media (min-width: 768px) {
+    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+        display:-webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+        text-align: right;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse
+    }
+
+    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
+        text-align: left;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+    .elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
+        margin: auto
+    }
+
+    .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start
+    }
+
+    .elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end
+    }
+
+}
+
+@media (max-width: 767px) {
+    .elementor-widget-image-box .elementor-image-box-img {
+        margin-left:auto!important;
+        margin-right: auto!important;
+        margin-bottom: 15px
+    }
+}
+
+.elementor-widget-image-box .elementor-image-box-img {
+    display: inline-block
+}
+
+.elementor-widget-image-box .elementor-image-box-title a {
+    color: inherit
+}
+
+.elementor-widget-image-box .elementor-image-box-wrapper {
+    text-align: center
+}
+
+.elementor-widget-image-box .elementor-image-box-description {
+    margin: 0
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -2693,3 +2868,39 @@ h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}   
+nav a:hover,
+nav a.active {
+    color: #0ef;
+}
+.about-button{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 25px;
+}
+
