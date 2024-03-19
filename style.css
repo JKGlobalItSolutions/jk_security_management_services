@@ -1237,7 +1237,7 @@ blockquote {
 }
 
 :root {
-    --ast-global-color-0: #2FC1FF;
+    --ast-global-color-0: #7abcd8;
     --ast-global-color-1: #08ACF2;
     --ast-global-color-2: #101218;
     --ast-global-color-3: #4C5253;
@@ -2682,11 +2682,10 @@ h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content
 }
 
 :root {
-    --e-global-color-astglobalcolor0: #2FC1FF;
+    --e-global-color-astglobalcolor0: #47aad4;
     --e-global-color-astglobalcolor1: #08ACF2;
     --e-global-color-astglobalcolor2: #101218;
     --e-global-color-astglobalcolor3: #4C5253;
-    --e-global-color-astglobalcolor4: #F3F6F6;
     --e-global-color-astglobalcolor5: #FFFFFF;
     --e-global-color-astglobalcolor6: #000000;
     --e-global-color-astglobalcolor7: #4B4F58;
@@ -2903,5 +2902,5 @@ nav a.active {
     align-items: center;
     text-align: center;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
 }
