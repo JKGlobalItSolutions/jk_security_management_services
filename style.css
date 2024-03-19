@@ -2679,18 +2679,7 @@ h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content
     --e-global-color-astglobalcolor7: #4B4F58;
     --e-global-color-astglobalcolor8: #F6F7F8;
 }
-nav a {
-    font-size: 18px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .3s;
-}
-nav a:hover,
-nav a.active {
-    color: #0ef;
-}
+
 .about-button{
     align-items: center;
     text-align: center;
