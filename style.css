@@ -2669,6 +2669,7 @@ h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content
     }
 }
 
+
 :root {
     --e-global-color-astglobalcolor0: #2FC1FF;
     --e-global-color-astglobalcolor1: #08ACF2;
@@ -2692,4 +2693,8 @@ h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+}
+.element.style {
+    height: 150px;
+    width: 500px;
 }
