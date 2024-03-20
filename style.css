@@ -870,8 +870,9 @@ button:focus,.menu-toggle:hover,button:hover,.ast-button:hover,.ast-custom-butto
 
 body,.ast-separate-container {
     background-color: var(--ast-global-color-4);
-    ;background-image: none;
-    ;}
+    background-image: none;
+    color: #809fbe;
+    }
 
 .ast-no-sidebar.ast-separate-container .entry-content .alignfull {
     margin-left: -6.67em;
@@ -2693,8 +2694,15 @@ h1,.entry-content h1,h2,.entry-content h2,h3,.entry-content h3,h4,.entry-content
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
+    
 }
 .element.style {
     height: 150px;
     width: 500px;
+}
+.home{
+color: #809fbe;
+}
+.site-footer{
+    background: #2FC1FF;
 }
